@@ -103,7 +103,7 @@
     <!-- </div> -->
   </div>
     @php
-      $itemsPerPage = 18; // Limite de itens por página
+      $itemsPerPage = 13; // Limite de itens por página
       $pages = array_chunk($dados['content'], $itemsPerPage); // Divide os dados em páginas
       $totalPages = count($pages); // Total de páginas
       $totalGeral = array_sum(array_column($dados['content'], 'total_value')); // Total de todas as páginas
